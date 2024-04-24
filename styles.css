@@ -4,9 +4,13 @@
 
 body {
     background-color:rgb(255, 255, 255);
-    margin: 20vh 0 0 0;
-    display: grid;
-    grid-template-columns: 1;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* padding-bottom: 1000px; */
+    margin-bottom: 100px;
 }
 
 /* The navigation bar */
@@ -17,7 +21,7 @@ body {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
-    padding: 0;
+    /* padding: 0; */
     z-index: 100;
 }
 
@@ -66,8 +70,12 @@ body {
 }
 
 .about {
+    /* margin-top: 850px; */
+    /* padding-top: 10px; */
     font-size: xx-large;
     color:black;
     width: 100%;
-    margin: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
+
