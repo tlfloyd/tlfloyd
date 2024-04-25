@@ -5,55 +5,56 @@
     <Title>Tristan Floyd - Portfolio</Title>
 </head>
 <body id="page-top">
+    <script type="text/javascript" src="/main.js"></script>
     <header>
-        <div class="navbar">
-            <a class="navName" href="#">
-                <b>Tristan Floyd</b>
-            </a>
-            <div class="navButtons">
-                <a href="#resume">Resume</a>
-                <a href="#contact">Contact</a>
-                <a href="#projects">Projects</a>
-                <a href="#skills">Skills</a>
-                <a href="#about">About</a>
-            </div>
-        </div>
-
-        <div class="topPicture">
-            <img src="./assets/city.jpg">
+        <div class="title">
+            <b>Tristan Floyd's HW5 Database</b>
         </div>
     </header>
 
-    <div class="about" id="about">
-        <p>I'm hosted with GitHub Pages.</p>
-        <p>I'm hosted with GitHub Pages.</p>
-        <p>I'm hosted with GitHub Pages.</p>
-        <p>I'm hosted with GitHub Pages.</p>
-        <p>I'm hosted with GitHub Pages.</p>
-        <p>I'm hosted with GitHub Pages.</p>
-        <p>I'm hosted with GitHub Pages.</p>
-        <p>I'm hosted with GitHub Pages.</p>
-        <p>I'm hosted with GitHub Pages.</p>
-        <p>I'm hosted with GitHub Pages.</p>
-        <p>I'm hosted with GitHub Pages.</p>
-        <p>I'm hosted with GitHub Pages.</p>
-        <p>I'm hosted with GitHub Pages.</p>
-        <p>I'm hosted with GitHub Pages.</p>
-        <p>I'm hosted with GitHub Pages.</p>
-        <p>I'm hosted with GitHub Pages.</p>
-        <p>I'm hosted with GitHub Pages.</p>
-        <p>I'm hosted with GitHub Pages.</p>
-        <p>I'm hosted with GitHub Pages.</p>
-        <p>I'm hosted with GitHub Pages.</p>
+    <div class="options">
+        <button class="button" type="button" onclick = "addGameScreen()">Add Game</button>
+        <button class="button" type="button" onclick = "addPlayerScreen()">Add Player</button>
+        <button class="button" type="button" onclick = "viewPlayersTeamScreen()">View Players From Team</button>
+        <button class="button" type="button" onclick = "viewPlayersPositionScreen()">View Players from Position</button>
+        <button class="button" type="button" onclick = "viewTeamsScreen()">View Teams By Conference</button>
+        <button class="button" type="button" onclick = "viewGamesByTeamScreen()">View Games from Team</button>
+        <button class="button" type="button" onclick = "viewGamesByDateScreen()">View Games from Date</button>
     </div>
 
-    <div>
-
+    <div id="inputs" class="inputs">
+        <!-- <form id="myForm">
+            <b class="topText">Add Game:</b>
+            <p>
+                <label for="teamId1">Team 1 ID:</label>
+                <input type="text" id="teamId1" name="teamId1"><br><br>
+            </p>
+            <p>
+                <label for="teamId2">Team 2 ID:</label>
+                <input type="text" id="teamId2" name="teamId2"><br><br>
+            </p>
+            <p>
+                <label for="score1">Team 1 Score:</label>
+                <input type="text" id="score1" name="score1"><br><br>
+            </p>
+            <p>
+                <label for="score1">Team 1 Score:</label>
+                <input type="text" id="score1" name="score1"><br><br>
+            </p>
+            <p>
+                <label for="score2">Team 2 Score:</label>
+                <input type="text" id="score2" name="score2"><br><br>
+            </p>
+            <p>
+                <label for="date">Date:</label>
+                <input type="text" id="date" name="date"><br><br>
+            </p>
+            <p>
+                <button class="submitButton" type="button" onclick="submitForm()">Submit</button>
+            </p>
+        </form> -->
     </div>
     
-    <footer>
-
-    </footer>
 </body>
 </html>
 
