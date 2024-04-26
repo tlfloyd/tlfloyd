@@ -10,7 +10,7 @@ async function submitForm() {
             jsonObject[key] = value;
         });
 
-        const response = await fetch("/data", {
+        const response = await fetch("/", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
