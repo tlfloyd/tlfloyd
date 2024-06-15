@@ -9,8 +9,12 @@
     background: transparent;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 60px;
+}
+
 body {
-    background-color:rgb(253, 250, 245);
     display: grid;
     grid-template-columns: 1;
     overflow-x: hidden;
@@ -18,18 +22,19 @@ body {
 
 header {
     position: relative;
+    top: 0;
     height: 100vh;
 }
 
 /* The navigation bar */
 .navbar {
     overflow: hidden;
-    /* background-color: #756e6e; */
+    background-color: #4f4d4d;
     position: fixed;  /*Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
-    padding-top: 15px;
     z-index: 100;
+    height: 60px;
 }
 
 /* Name on left side of navigation bar */
@@ -70,7 +75,7 @@ header {
 }
 
 .topPicture {
-    position: relative;
+    position: fixed;
 }
 
 img {
@@ -82,9 +87,37 @@ img {
 }
 
 .about {
+    width: 100%;
+    position: relative;
+    background-color:rgb(227, 227, 227);
+}
+
+.skills {
+    background-color:rgb(227, 227, 227);
+    position: relative;
+}
+
+.projects {
+    background-color:rgb(227, 227, 227);
+    position: relative;
+}
+
+.contact {
+    background-color:rgb(227, 227, 227);
+    position: relative;
+}
+
+.resume {
+    background-color:rgb(227, 227, 227);
+    position: relative;
+}
+
+p {
     font-size: xx-large;
     color:black;
     width: 100%;
     margin-left: 15%;
     position: relative;
 }
+
+
