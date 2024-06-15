@@ -1,23 +1,34 @@
 * {
-    box-sizing:border-box
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
 
 body {
-    background-color:rgb(255, 255, 255);
-    margin: 20vh 0 0 0;
+    background-color:rgb(253, 250, 245);
     display: grid;
     grid-template-columns: 1;
+    overflow-x: hidden;
+}
+
+header {
+    position: relative;
+    height: 100vh;
 }
 
 /* The navigation bar */
 .navbar {
     overflow: hidden;
-    background-color: #756e6e;
-    /* opacity: 90%; */
-    position: fixed; /* Set the navbar to fixed position */
+    /* background-color: #756e6e; */
+    position: fixed;  /*Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
-    padding: 0;
+    padding-top: 15px;
     z-index: 100;
 }
 
@@ -59,15 +70,21 @@ body {
 }
 
 .topPicture {
-    width: 100%;
-    padding: 0;
-    top: 0;
-    position: absolute;
+    position: relative;
+}
+
+img {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+    filter: brightness(40%);
 }
 
 .about {
     font-size: xx-large;
     color:black;
     width: 100%;
-    margin: 15%;
+    margin-left: 15%;
+    position: relative;
 }
